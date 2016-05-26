@@ -19,7 +19,7 @@ The method
 > public Model getModel(String model_name)
 
 accepts String including:
-  * "Epsilon_epsilon": generate Epsilon-greedy model, the parameter epsilon usually ranges between 0 and 0.1.
+  * "Epsilon_epsilon": generate the Epsilon-greedy model. The parameter epsilon usually ranges between 0 and 0.1.
   * "Boltzmann_tau": generate the Boltzmann Exploration model, where tau indicates the temperature parameter.
   * "UCB": generate the UCB-1 model.
   * "POMDP_horizon": generate the POMDP model. The parameter horizon should be an integer.
