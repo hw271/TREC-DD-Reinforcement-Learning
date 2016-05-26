@@ -8,13 +8,13 @@ All the interactions, aka, the multiple cycles of retrieval results will be used
 
 #**_Classes and Interfaces_**
 
-Class Experiment contains the main method for the task.
+Class **Experiment** contains the main method for the task.
 
-Interface Model defines one method: search()
+Interface **Model** defines one method: search()
 
-Class Boltzmann, Epsilon, UCB and POMDP implements interface Model. These four classes correspond to the four models we mentioned above: Boltzmann Exploration, epsilon-greedy, UCB-1 and POMDP.
+Class **Boltzmann**, **Epsilon**, **UCB** and **POMDP **implements interface **Model**. These four classes correspond to the four models we mentioned above: Boltzmann Exploration, epsilon-greedy, UCB-1 and POMDP.
 
-Class ModelFactory is the factory to generate models. 
+Class **ModelFactory** is the factory to generate models. 
 
-Class Evaluator evaluate the retrieved results, calculating the Cube Test (CT) score, Average Cube Test (ACT) score and nDCG.  
+Class **Evaluator** evaluate the retrieved results, calculating the Cube Test (CT) score, Average Cube Test (ACT) score and nDCG.  
 
