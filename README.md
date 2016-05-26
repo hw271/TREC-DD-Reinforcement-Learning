@@ -6,7 +6,7 @@ It is an interactive search task. The participating systems (your systems) will 
 
 All the interactions, aka, the multiple cycles of retrieval results will be used to evaluate the system's performance in the entire process. The metrics include Cube Test, Average Cube Test, nDCG, etc. This is not a one-shot retrieval, but a whole process of multiple retrievals. An effective participating system is expected to be able to find the relevant documents as many as possible, using less runs of interactions.
 
-#**_Some important classes and interfaces_**
+#**_Classes and Interfaces_**
 
 Class Experiment contains the main method for the task.
 
