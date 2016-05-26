@@ -1,0 +1,3 @@
+cd ../feedback
+python jig/jig.py -c jig/config.yaml step DD15-48 1320723960-9a6dc040cc18d6b31c69412185a0c256 1326711660-a4f91d4cbd853869639d856d28e53eca 1326711900-a104cd066c8a1aeec7830c4a179d0778
+cd ../src

@@ -1,0 +1,20 @@
+TREC.result
+
+\begin{table*}[t]
+\centering
+\caption{Search Effectiveness on TREC DD ($\dag$ indicates a stat. significant improvement over the baseline)}
+\label{table:trec_eval} 
+\begin{tabular}{| l | c | c | c |}  
+\hline
+Run File	&	nDCG@10	&	CT@10	&	ACT@10 \\\hline
+TREC 2015 DD best	&	0.275	&	\textbf{0.265} $\dag$	&	0.212 \\
+TREC 2015 DD Median	&	0.135	&	0.022	&	0.135 \\
+uogTrxQuADRR	&	0.183	&	0.118	&	0.085 \\
+ul combi roc.2 	&	0.153	&	0.119	&	0.115 \\
+\hline
+Boltzmann Exp ($\tau$=10)	&	0.307	&	0.157	&	0.214 \\
+$\epsilon$-greedy ($\epsilon$=0.1)	&	0.311	&	0.161	&	\textbf{0.218} $\dag$ \\
+UCB-1	&	0.309	&	0.161	&	0.203 \\
+POMDP (horizon=1)	&	\textbf{0.314} $\dag$	&	0.168	&	\textbf{0.218} $\dag$	\\\hline
+\end{tabular} 
+\end{table*}
