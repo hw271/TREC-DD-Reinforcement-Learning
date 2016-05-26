@@ -17,6 +17,7 @@ Class **Boltzmann**, **Epsilon**, **UCB** and **POMDP** implements interface **M
 Class **ModelFactory** is the factory to generate models. 
 The method
 > public Model getModel(String model_name)
+
 accepts String including:
   * "Epsilon_epsilon": generate Epsilon-greedy model, the parameter epsilon usually ranges between 0 and 0.1.
   * "Boltzmann_tau": generate the Boltzmann Exploration model, where tau indicates the temperature parameter.
