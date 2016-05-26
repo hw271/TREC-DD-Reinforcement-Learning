@@ -1,4 +1,4 @@
-This project aims to perform Text REtrieval Conferance Dynamic Domain (TREC DD) task. (http://trec-dd.org/2015.html)
+This project aims to perform Text REtrieval Conferance Dynamic Domain ([TREC DD](http://trec-dd.org/2015.html)) task. 
 
 #**_Task_**
 
