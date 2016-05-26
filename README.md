@@ -1,4 +1,4 @@
-This project aims to perform Text REtrieval Conferance Dynamic Domain ([TREC DD](http://trec-dd.org/2015.html)) task. 
+This project aims to perform Text REtrieval Conferance Dynamic Domain ([TREC DD 2015](http://trec-dd.org/2015.html)) task. 
 
 #**_Task_**
 
@@ -12,7 +12,7 @@ Class **Experiment** contains the main method for the task.
 
 Interface **Model** defines one method: search()
 
-Class **Boltzmann**, **Epsilon**, **UCB** and **POMDP **implements interface **Model**. These four classes correspond to the four models we mentioned above: Boltzmann Exploration, epsilon-greedy, UCB-1 and POMDP.
+Class **Boltzmann**, **Epsilon**, **UCB** and **POMDP** implements interface **Model**. These four classes correspond to the four models we mentioned above: Boltzmann Exploration, epsilon-greedy, UCB-1 and POMDP.
 
 Class **ModelFactory** is the factory to generate models. 
 
