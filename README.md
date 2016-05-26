@@ -1,6 +1,6 @@
 This project aims to perform Text REtrieval Conferance Dynamic Domain (TREC DD) task. (http://trec-dd.org/2015.html)
 
-[Task]
+**_Task_**
 
 It is an interactive search task. The participating systems (your systems) will start from an initial query (the only query provided), retrieve 5 documents and submit them to a simulater program that the Track organizers provided. The simulator (we call it jig) will provide graded relevance judgments to the 5 submitted documents. With the judgments, the system decides if it would like to retrieve more documents or stop. If the system decides to submit more documents, they would need to submit 5 more documents and the jig will provide relevance judgments to those documents again. The retrieval loop continues until the system decides to stop. 
 
